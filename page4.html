@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            max-width: 768px;
+            margin: 50px auto;
+        }
+
+        .explanation-area {
+            display:flex;
+            align-items:center;
+        }
+        .explanation-area h1 {
+            font-size:36px;
+            font-weight:900;
+            color: #0ea5e9;
+        }
+        .explanation-area .description {
+            padding-left:40px;
+        }
+        .explanation-area .description p:first-child {
+            margin-bottom:20px;
+        }
+
+        .client-info-area {
+            margin-top:50px;
+            display:grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap:20px;
+        }
+
+        .client-info {
+            display:flex;
+        }
+
+        .client-info-area .client-info label {
+            margin-right:10px;
+            font-weight:700;
+        }
+
+        .banner-area {
+            margin-top:50px;
+        }
+        .banner-area img.banner-main-image {
+            width:100%;
+            height:400px;
+            border-radius:20px;
+        }
+
+        .banner-area .description-banner-area .icone-porto-area {
+            margin-top:-50px;
+        }
+        .banner-area .description-banner-area .icone-porto-area img {
+            max-width:200px;
+            border-radius:10px;
+        }
+
+        .banner-area .description-banner-area {
+            display:flex;
+            align-items:center;
+        }
+
+        .banner-area .description-banner-area .text-banner {
+            margin-left:10px;
+        }
+
+        .banner-area .description-banner-area .text-banner p {
+            font-size:36px;
+            font-weight:900;
+            color:#0ea5e9;
+        }
+        .banner-area .description-banner-area .text-banner span {
+            margin-top:5px;
+            color:#AAA;
+        }
+        
+        .more-informations {
+            margin-top:50px;
+            display: flex;
+            align-items: center;
+        }
+
+        .more-informations .download-app-text {
+            margin:10px 0;
+            color:#0ea5e9;
+            font-weight:700;
+        }
+
+        .more-informations a {
+            color:#373737;
+            font-weight:700;
+        }
+
+        .more-informations .observation {
+            margin-top:10px;
+            color:#AAA;
+        }
+
+        .more-informations .qr-code  {
+            margin-left:20px;
+        }
+        .more-informations .qr-code img {
+            max-width:120px;
+        }
+
+        footer.footer-page {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-page .footer-trace {
+            width: 50%;
+            height: 2px;
+            background-color: #0ea5e9;
+        }
+
+        .footer-page .footer-description {
+            font-size: 12px;
+        }
+
+        .footer-page .number-page {
+            width: 30px;
+            height: 30px;
+            background-color: #0ea5e9;
+            color: #FFF;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="explanation-area">
+            <h1>Principais informações do seu seguro</h1>
+            <div class="description">
+                <p>Para consultar os <b>dados do seu seguro</b> e o cartão do segurado, acesse o <b>App Porto</b> ou o <b>
+                    Portal do
+                        cliente
+                </b> e confira todas as informações que você precisar.</p>
+                <p>Agora você tem todas as suas informações de forma digital, com benefícios exclusivos, a qualquer hora
+                    e lugar.</p>
+            </div>
+        </div>
+
+        <div class="client-info-area">
+            <div class="client-info">
+                <label for="">Nome:</label>
+                <p>Pablo Lindenberg</p>
+            </div>
+            <div class="client-info">
+                <label for="">Veículo:</label>
+                <p>Fiat Toro Cabine Dupla Endurance 1.3 T270 4X2 Flex At</p>
+            </div>
+            <div class="client-info">
+                <label for="">Número do apólice:</label>
+                <p>0531 44 12273730</p>
+            </div>
+            <div class="client-info">
+                <label for="">Corretor:</label>
+                <p>Evora News Corretora De Seguros Ltda</p>
+            </div>
+            <div class="client-info"> 
+                <label for="">Vencimento:</label>
+                <p>17/09/2025</p>
+            </div>
+            <div class="client-info">
+                <label for="">Placa:</label>
+                <p>BAA0000</p>
+            </div>
+            <div class="client-info">
+                <label for="">Item:</label>
+                <p>19</p>
+            </div>
+            <div class="client-info">
+                <label for="">Telefone:</label>
+                <p>(11) 40821000</p>
+            </div>
+            <div class="client-info">
+                <label for="">Código C.I:</label>
+                <p>58.824.689.117.703</p>
+            </div>
+        </div>
+
+        <div class="banner-area">
+            <img class="banner-main-image" src="./assets/homem-dirigindo.jpg" alt="Imagem ilustrativa">
+            <div class="description-banner-area">
+                <div class="icone-porto-area">
+                    <img src="./assets/icone-porto-seguro.png" alt="Ícone Porto Seguro">
+                </div>
+                <div class="text-banner">
+                    <p>App Porto</p>
+                    <span>Uma facilidade para você falar <br> com a gente como quiser.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="more-informations">
+            <div>
+                <p>Consulte informações sobre sua apólice e pagamentos, solicite
+                    serviços para carro e casa, acompanhe abertura de sinistro e mais.</p>
+                <p class="download-app-text">Para baixar o aplicativo, leia o QR Code com o seu celular ou acesse:</p>
+                <a href="">https://www.portoseguro.com.br/app-porto-download</a>
+                <p class="observation">*Aplicativo disponível apenas para clientes pessoa física.</p>
+            </div>
+            <div class="qr-code">
+                <img src="./assets/qr-code.png" alt="QR Code">
+            </div>
+        </div>
+
+        <footer class="footer-page">
+            <div class="footer-trace"></div>
+            <div class="footer-description">Apólice Porto Proteção Combinada</div>
+            <div class="number-page">04</div>
+        </footer>
+    </div>
+</body>
+
+</html>

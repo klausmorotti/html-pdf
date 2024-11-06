@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 11</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            max-width: 768px;
+            margin: 50px auto;
+        }
+
+        header {
+            background-color: #0ea5e9;
+            color: #FFF;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .content h2 {
+            margin:30px 0;
+            color: #0ea5e9;
+            font-weight:500;
+        }
+
+        .content p {
+            line-height: 30px;
+        }
+
+        .client-info-area {
+            margin-top:20px;
+        }
+
+        .multiple-client-info-line {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .client-info {
+            margin-bottom:15px;
+            display:flex;
+            align-items:center;
+        }
+
+        label {
+            margin-right:10px;
+            font-weight:700;
+        }
+        
+        .signatures {
+            margin-top:50px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        footer.footer-page {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-page .footer-trace {
+            width: 50%;
+            height: 2px;
+            background-color: #0ea5e9;
+        }
+
+        .footer-page .footer-description {
+            font-size: 12px;
+        }
+
+        .footer-page .number-page {
+            width: 30px;
+            height: 30px;
+            background-color: #0ea5e9;
+            color: #FFF;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Questionário de avaliação de risco</h1>
+        </header>
+
+        <div class="content">
+            <h2>Dados do motorista principal</h2>
+            <p>Seu seguro foi precificado tendo em vista, além de outros fatores, as respostas do
+                Questionário de Avaliação do Risco, conforme a seguir. Por favor, confira-as e, caso
+                haja alguma alteração, procure seu Corretor de Seguros. <b>
+                    Importante: declarações
+                    falsas, inexatas ou omissas implicarão na perda de direito à indenização e no
+                    cancelamento da apólice.
+                </b></p>
+            <p>Condutor é a pessoa que dirige o veículo segurado. Quando mais de uma pessoa
+                dirigir o veículo segurado por dois dias ou mais na semana, deverá ser considerado o
+                mais jovem. Também deverá ser indicado o condutor mais jovem, quando todos os
+                condutores dirigirem o veículo segurado apenas um dia na semana.
+                Fatores de Risco Relacionados ao Principal Condutor e ao Veículo Segurado.</p>
+        </div>
+
+        <div class="client-info-area">
+            <div class="client-info">
+                <label for="">Nome do motorista principal:</label>
+                <p>Pablo Lindenberg</p>
+            </div>
+            <div class="multiple-client-info-line">
+                <div class="client-info">
+                    <label for="">Sexo:</label>
+                    <p>Masculino</p>
+                </div>
+                <div class="client-info">
+                    <label for="">Data de nascimento:</label>
+                    <p>01/09/1970</p>
+                </div>
+                <div class="client-info">
+                    <label for="">CPF:</label>
+                    <p>269.375.420-89</p>
+                </div>
+            </div>
+            <div class="client-info">
+                <label for="">Possui dispositivo antifurto/anti-roubo instalado no veículo:</label>
+                <p>Outros Dispositivos</p>
+            </div>
+            <div class="client-info">
+                <label for="">Possui dispositivo antifurto/anti-roubo instalado no veículo:</label>
+                <p>Rastreador da Porto Seguro - DAF V</p>
+            </div>
+            <div class="client-info">
+                <label for="">Cep do local onde o veiculo pernoita?</label>
+                <p>07082530</p>
+            </div>
+        </div>
+
+        <div class="signatures">
+            <div class="director-signature">
+                <img src="./assets/director-signature.png" alt="Assinatura diretor">
+            </div>
+            <div class="ceo-signature">
+                <img src="./assets/ceo-signature.png" alt="Assinatura CEO">
+            </div>
+        </div>
+
+
+        <footer class="footer-page">
+            <div class="footer-trace"></div>
+            <div class="footer-description">Apólice Porto Proteção Combinada</div>
+            <div class="number-page">11</div>
+        </footer>
+    </div>
+</body>
+
+</html>
